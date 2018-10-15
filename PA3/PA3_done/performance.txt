@@ -1,0 +1,41 @@
+Number for requester thread = 1
+Number for resolver thread = 1
+Total run time: 146036 in microseconds
+Thread 88370 serviced names1.txt
+
+
+Number for requester thread = 1 
+Number for resolver thread = 3
+Total run time: 240453 in microseconds 
+Thread 88444 serviced names1.txt
+
+
+Number for requester thread = 3 
+Number for resolver thread = 1
+Total run time: 614701
+Thread 88497 serviced names3.txt
+Thread 88496 serviced names2.txt
+Thread 88495 serviced names1.txt
+
+
+Number for requester thread = 3 
+Number for resolver thread = 3
+Total run time: 128771 in microseconds
+Thread 88524 serviced names2.txt
+Thread 88525 serviced names3.txt
+Thread 88523 serviced names1.txt
+
+
+Number for requester thread = 5
+Number for resolver thread = 5
+Total run time: 45570 in microsecond
+Thread 88682 serviced names5.txt
+Thread 88681 serviced names4.txt
+Thread 88680 serviced names3.txt
+Thread 88679 serviced names2.txt
+Thread 88678 serviced names1.txt
+
+8 requester thread and 5 resolver threads:
+Requeseter threads are too many! 8
+The max requester thread is 5
+Total run time: 

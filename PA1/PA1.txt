@@ -1,0 +1,8 @@
+Adding System Call
+
+Step 4 or 5
+
+
+There’s a typo!!
+
+after x86 directory, go entry directory to find the next directory

@@ -1,0 +1,20 @@
+Terminal 1 (in mount point directory (PA4 directory):
+
+make clean
+
+make
+
+./pa4-encfs test /home/user/Documents mnt-pa4-encfs/
+
+cd mnt-pa4-encfs
+
+#vim test.txt
+#cd ..
+
+./xattr-util -g pa4-encfs.encrypted mnt-pa4-encfs/test.txt
+
+./xattr-util -g pa4-encfs.encrypted /home/user/Documents/test.txt
+
+./aes-crypt-util -d test /home/user/Documents/test.txt /home/user/Documents/test_copy.txt
+
+fusermount -uz mnt-pa4-encfs
